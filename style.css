@@ -1,0 +1,156 @@
+body {
+  background-color: whitesmoke;
+}
+
+.container{
+  margin: auto;
+  width: 960px;
+}
+
+.row {
+display: flex;
+}
+
+.col {
+  margin: 10px;
+}
+
+.col-12 {
+  width:940px;
+}
+.col-11 {
+  width:860px;
+}
+
+.col-10 {
+  width:780px;
+}
+.col-9 {
+  width:700px;
+}
+.col-8 {
+  width:620px;
+}
+.col-7 {
+  width:540px;
+}
+.col-6 {
+  width:460px;
+}
+.col-5 {
+  width:380px;
+}
+
+.col-4{
+  width:300px;
+}
+.col-3{
+  width:220px;
+}
+.col-2{
+  width:140px;
+}
+
+.col-1{
+  width:60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav{
+   justify-content: space-between;
+   padding: 10px;
+   background-color: black;
+}
+
+.trakdLogo {
+  display: flex;
+  margin-right: 20px;
+  font-size: 28px;
+  color: white;
+  gap:10px
+}
+
+.navbtn{
+  gap: 25px;
+  margin-top: 5px;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+
+}
+
+.btn {
+  border: none;
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.singbtn {
+  width: 140px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.searchBar {
+  background-color:#50b0e6;
+  justify-content: right;
+  padding: 10px;
+}
+
+.searchBarinput {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.joinbtn {
+  width: 100%;
+  height: 30px;
+}
+
+.poster {
+  background-color: black;
+  padding:20px 0px;
+}
+
+.posterHandle {
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.posterText {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.promText {
+  padding: 20px 0px;
+  background-color: white;
+  font-size: 22px;
+  justify-content: space-between;
+}
+.Collaborators {
+  padding: 45px 10px;
+  background-color:#262525;
+}
+.CollaboratorsCards {
+  height: 85px;
+}
+
+.TrandigShow {
+  background-color:#e2e8de;
+  padding: 20px 0px;
+}
+
+.showCard {
+height: 200px;
+}
